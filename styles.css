@@ -34,7 +34,7 @@ body {
     background: url('1 (1).jpg');
     align-items: center;
     color: white;
-    height: 599px;
+    height: 670px;
     padding: 0px 60px;
 }
 .overlay {
@@ -156,15 +156,18 @@ h2, h3 {
 }
 
 .footer {
-    background: #c00013;
-    color: #fff;
-    padding: 20px 0;
+    background: #c00000; 
+    color: white; 
     text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    height: 125px;
 }
 
 .footer-nav {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .footer-nav li {
@@ -174,11 +177,17 @@ h2, h3 {
 
 .footer-nav a {
     text-decoration: none;
-    color: #bbb;
+    color: white;
+    font-weight: bold;
 }
 
 .footer-nav a:hover {
-    color: #fff;
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 12px;
 }
 @media (max-width: 768px) {
     .menu-toggle {
@@ -261,6 +270,10 @@ h2, h3 {
         padding: 10px;
     }
 
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+}
     .hero-content h1 {
         font-size: 1.8rem;
     }
