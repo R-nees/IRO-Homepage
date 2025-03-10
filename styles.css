@@ -213,3 +213,55 @@ h2, h3 {
         overflow: hidden; 
     }
 }
+@media (max-width: 1024px) {
+    .side-box {
+        right: 20px;
+        max-width: 400px;
+    }
+
+    .hero {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .side-box {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        width: 90%;
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .side-box {
+        width: 95%;
+        max-width: 350px;
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+}
